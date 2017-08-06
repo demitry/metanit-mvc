@@ -1,0 +1,22 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.26430.15
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KatanaConsoleApp", "KatanaConsoleApp\KatanaConsoleApp.csproj", "{1C56C955-1305-4FA0-97B1-5A6E4DF9F7AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1C56C955-1305-4FA0-97B1-5A6E4DF9F7AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1C56C955-1305-4FA0-97B1-5A6E4DF9F7AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1C56C955-1305-4FA0-97B1-5A6E4DF9F7AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1C56C955-1305-4FA0-97B1-5A6E4DF9F7AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
