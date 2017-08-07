@@ -8,10 +8,20 @@ namespace MvcLifecycle.Controllers
 {
     public class HomeController : Controller
     {
-        public ActionResult Index()
+        public string Index()
+        {
+            List<string> events = HttpContext.Application["events"] as List<string>;
+            string result = "<ul>";
+            foreach (string e in events)
+                result += "<li>" + e + "</li>";
+            result += "</ul>";
+            return result;
+        }
+
+        /*public ActionResult Index()
         {
             return View();
-        }
+        }*/
 
         public ActionResult About()
         {
