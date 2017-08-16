@@ -1,0 +1,9 @@
+Structure.
+Now that we have the projects added to our solution, let’s quickly go over what each is used for. 
+The GroupBrush.Web project contains the OWIN components and Unity. 
+GroupBrush.BL contains the business logic encapsulated into services. 
+Many of those services will depend on the next project, 
+GroupBrush.DL, which contains the database logic.
+The Web, BL, and DL projects all reference their entity objects from the GroupBrush.Entity project. 
+The GroupBrush.Cloud project is the project for cloud configuration, 
+and the GroupBrush.Worker project will host the application in a Worker role on Azure.
