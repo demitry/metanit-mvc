@@ -11,6 +11,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBrush.DL", "GroupBrush
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBrush.Entity", "GroupBrush.Entity\GroupBrush.Entity.csproj", "{3D9A6A0C-113F-43F0-A39F-DF246DD3DCB8}"
 EndProject
+Project("{CC5FD16D-436D-48AD-A40C-5A424C6E3E79}") = "GroupBrush.Cloud", "GroupBrush.Cloud\GroupBrush.Cloud.ccproj", "{C08F3AEC-B1E6-4CA7-93E4-898A8A9A918E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GroupBrush.Worker", "GroupBrush.Worker\GroupBrush.Worker.csproj", "{C9F90E40-496E-4065-AE50-15A04053F8E8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +37,14 @@ Global
 		{3D9A6A0C-113F-43F0-A39F-DF246DD3DCB8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D9A6A0C-113F-43F0-A39F-DF246DD3DCB8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3D9A6A0C-113F-43F0-A39F-DF246DD3DCB8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C08F3AEC-B1E6-4CA7-93E4-898A8A9A918E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C08F3AEC-B1E6-4CA7-93E4-898A8A9A918E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C08F3AEC-B1E6-4CA7-93E4-898A8A9A918E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C08F3AEC-B1E6-4CA7-93E4-898A8A9A918E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9F90E40-496E-4065-AE50-15A04053F8E8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9F90E40-496E-4065-AE50-15A04053F8E8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9F90E40-496E-4065-AE50-15A04053F8E8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9F90E40-496E-4065-AE50-15A04053F8E8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
