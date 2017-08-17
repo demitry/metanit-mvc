@@ -6,10 +6,12 @@ using System.Threading.Tasks;
 
 namespace GroupBrush.BL.Users
 {
-    interface IUserService
+    public interface IUserService
     {
         int? CreateAccount(string userName, string password);
+
         bool ValidateUserLogin(string userName, string password, out int? userId);
+
         string GetUserNameFromId(int id);
     }
 }

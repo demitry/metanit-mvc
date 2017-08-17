@@ -47,6 +47,12 @@
   <ItemGroup>
     <Folder Include="Storage\" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\GroupBrush.Entity\GroupBrush.Entity.csproj">
+      <Project>{3d9a6a0c-113f-43f0-a39f-df246dd3dcb8}</Project>
+      <Name>GroupBrush.Entity</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

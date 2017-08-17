@@ -60,13 +60,21 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Hubs\CanvasHub.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Hubs\" />
+    <ProjectReference Include="..\GroupBrush.BL\GroupBrush.BL.csproj">
+      <Project>{9afac796-4b66-4dfa-b708-623e8335c655}</Project>
+      <Name>GroupBrush.BL</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\GroupBrush.Entity\GroupBrush.Entity.csproj">
+      <Project>{3D9A6A0C-113F-43F0-A39F-DF246DD3DCB8}</Project>
+      <Name>GroupBrush.Entity</Name>
+    </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
